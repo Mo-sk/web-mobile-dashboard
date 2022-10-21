@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { signOut } from 'firebase/auth';
 import { auth } from '../firebase';
+import Map from '../components/map/Map';
 
 export default function Home({
     user,
@@ -18,15 +19,8 @@ export default function Home({
     }
 
     return (
-        <div className='flex flex-col items-center text-5xl font-bold text-center'>
-            This is the home screen 
-
-            <button 
-                onClick={signOutHandler}
-                className='w-40 active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01]  ease-in-out transform py-4 bg-green-500 rounded-xl text-white font-bold text-lg'>
-                
-                Sign Out
-            </button>
-        </div>
+        <div className='flex flex-col w-full items-center text-5xl font-bold text-center'>
+            <Map className='w-full' />
+        </div> 
     )
 }
