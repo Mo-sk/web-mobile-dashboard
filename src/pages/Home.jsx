@@ -23,7 +23,7 @@ export default function Home({
 
             <button 
                 onClick={signOutHandler}
-                className='w-40 active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01]  ease-in-out transform py-4 bg-violet-500 rounded-xl text-white font-bold text-lg'>
+                className='w-40 active:scale-[.98] active:duration-75 transition-all hover:scale-[1.01]  ease-in-out transform py-4 bg-green-500 rounded-xl text-white font-bold text-lg'>
                 
                 Sign Out
             </button>
