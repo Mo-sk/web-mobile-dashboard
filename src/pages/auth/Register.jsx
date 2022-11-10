@@ -28,7 +28,7 @@ export default function Register({
         <div className="flex w-full h-screen">
             <div className="w-full flex items-center justify-center lg:w-1/2">
                 <div className=' w-11/12 max-w-[700px] px-10 py-20 rounded-3xl bg-white border-2 border-green-100'>
-                    <h1 className='text-5xl font-bold text-gray-800'>Bonjour et bienvenu !</h1>
+                    <h1 className='text-5xl font-bold text-gray-800'>Bonjour et bienvenue !</h1>
                     <p className='font-medium text-lg text-gray-500 mt-4'>Veuillez saisir les informations de connexions souhaitées !</p>
                     <div className='mt-8'>
                         <div className='flex flex-col'>
@@ -81,7 +81,7 @@ export default function Register({
                 </div>
             </div>
             <div className="hidden relative w-1/2 h-full lg:flex items-center justify-center bg-topo">
-                <div className="w-80 h-40 rounded-full bg-gradient-to-tr from-green-500 to-green-200 animate-spin"/> 
+                <div className="w-80 h-80 rounded-full bg-gradient-to-tr from-green-500 to-green-200 animate-spin"/> 
                 <div className="w-full h-1/2 absolute bottom-0 bg-white/10 backdrop-blur-lg" />
             </div>
         </div>

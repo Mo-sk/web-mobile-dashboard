@@ -80,7 +80,7 @@ function Login({
         </div>
       </div>
       <div className="hidden relative w-1/2 h-full lg:flex items-center justify-center bg-topo">
-        <div className="w-80 h-40 rounded-full bg-gradient-to-tr from-green-500 to-green-200 animate-spin"/> 
+        <div className="w-80 h-80 rounded-full bg-gradient-to-tr from-green-500 to-green-200 animate-spin"/> 
         <div className="w-full h-1/2 absolute bottom-0 bg-white/10 backdrop-blur-lg" />
       </div>
     </div>
