@@ -13,7 +13,7 @@ export default function Home({
         <div className='flex flex-col w-full items-center text-5xl font-bold text-center'>     
             <Map/>
  
-            <div className='h-1/2'>
+            <div className='h-1/2 w-1/2'>
                 <BarChart/>
             </div>
         </div> 
